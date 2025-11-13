@@ -9,7 +9,7 @@ export default function HomeScreen() {
     <>
     
       <View style={styles.container}>
-        <Text style={styles.largeText}>Entry Screen - 😎 Awesome! </Text>
+        <Text style={styles.largeText}>"Entry Screen - Awesome"</Text>
       </View>
       <View>
         <Text style={styles.largeText}>Typescript is great if you practice more</Text>
@@ -23,28 +23,20 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#90caf9",
-    marginTop: 10,
-    paddingTop: 10,
-    paddingHorizontal: 10,
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    flexGrow: 1,
   },
   largeText: {
-    fontSize: 25,
-    color: "#0278f7ff",
+    fontSize: 30,
+    color: "#f44336",
     marginBottom: 5,
     fontWeight: "700",
     fontVariant: ["small-caps"],
   },
   mediumText: {
     fontSize: 20,
-    color: "#f5f5f5ff",
+    color: "#9c27b0",
     marginBottom: 10,
     fontWeight: "500",
-    textAlign: "left",
+    textAlign: "right",
   },
   smallText: {
     fontSize: 15,
