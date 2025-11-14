@@ -13,7 +13,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList, UserForm } from './types';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { router } from 'expo-router';
-import { styles }  from '@/styles/_joinstyle';
+import { styles }  from '@/styles/_join';
 
 type JoinScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Join'>;
 

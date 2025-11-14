@@ -17,7 +17,7 @@ export default function Index() {
         >
           <View style={styles.container}>
             <View style={styles.logoContainer}>
-              <Image source={require("@/assets/images/Logo.png")} />
+              <Image source={require("@/assets/images/logo.png")} />
             </View>
 
             <View style={styles.titleContainer}>

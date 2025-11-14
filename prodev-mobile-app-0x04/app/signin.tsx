@@ -1,6 +1,6 @@
 import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import {styles} from '@/styles/_joinstyle';
+import {styles} from '@/styles/_join';
 import { FontAwesome, Ionicons  } from "@expo/vector-icons";
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { useRouter } from "expo-router"; // <-- expo-router
