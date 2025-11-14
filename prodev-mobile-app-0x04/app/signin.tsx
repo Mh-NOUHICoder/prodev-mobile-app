@@ -91,9 +91,6 @@ export default function App(){
               <Text style={styles.subText}>Join now</Text>
           </View>
         </View>
-
-
-
       </SafeAreaView>
     </SafeAreaProvider>
   )
